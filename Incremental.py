@@ -65,11 +65,11 @@ def hash_file(file_path):
 
 def send_notification_email(count, receiver_email):
     # Configurações do servidor de e-mail
-    smtp_server = "10.31.45.236"
+    smtp_server = "----------"
     smtp_port = 25
 
     # Configuração do e-mail
-    sender = "impressao@detroit.cl"
+    sender = "e-mail de envio"
     SUBJECT = "Backup concluído"
     message = f"O backup foi concluído com sucesso. {count} arquivos copiados."
 
